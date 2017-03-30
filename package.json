@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/Liby99/KeelingJs/issues"
   },
-  "homepage": "https://github.com/Liby99/KeelingJs#readme"
+  "homepage": "https://github.com/Liby99/KeelingJs#readme",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
 }
