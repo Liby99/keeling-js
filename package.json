@@ -20,8 +20,10 @@
   },
   "homepage": "https://github.com/Liby99/KeelingJs#readme",
   "dependencies": {
+    "cookie-parser": "^1.4.3",
     "ejs": "^2.5.6",
     "express": "^4.15.2",
+    "express-session": "^1.15.2",
     "stack-trace": "0.0.9"
   }
 }
