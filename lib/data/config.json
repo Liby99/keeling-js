@@ -2,6 +2,7 @@
     "debug": true,
     "name": "Keeling Js Default",
     "port": 21023,
+    "session_secret": "keeling-session",
     "default_page": "index",
     "error_page": "error"
 }
