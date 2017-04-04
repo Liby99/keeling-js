@@ -1,31 +1,32 @@
 {
-  "name": "keeling-js",
-  "version": "0.0.2",
-  "description": "Keeling Js, a server based on Express Js",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/Liby99/KeelingJs.git"
-  },
-  "keywords": [
-    "nodejs-server"
-  ],
-  "author": "Liby Lee",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Liby99/KeelingJs/issues"
-  },
-  "homepage": "https://github.com/Liby99/KeelingJs#readme",
-  "dependencies": {
-    "body-parser": "^1.17.1",
-    "cookie-parser": "^1.4.3",
-    "ejs": "^2.5.6",
-    "express": "^4.15.2",
-    "express-session": "^1.15.2",
-    "node-schedule": "^1.2.1",
-    "stack-trace": "0.0.9"
-  }
+    "name": "keeling-js",
+    "version": "0.0.2",
+    "description": "Keeling Js, a server based on Express Js",
+    "main": "index.js",
+    "scripts": {
+        "install": "node install.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/Liby99/KeelingJs.git"
+    },
+    "keywords": [
+        "nodejs-server"
+    ],
+    "author": "Liby Lee",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Liby99/KeelingJs/issues"
+    },
+    "homepage": "https://github.com/Liby99/KeelingJs#readme",
+    "dependencies": {
+        "body-parser": "^1.17.1",
+        "cookie-parser": "^1.4.3",
+        "ejs": "^2.5.6",
+        "express": "^4.15.2",
+        "express-session": "^1.15.2",
+        "node-schedule": "^1.2.1",
+        "stack-trace": "0.0.9"
+    }
 }
