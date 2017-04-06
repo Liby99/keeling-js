@@ -1,4 +1,5 @@
 var fs = require("fs");
+var jsonfile = require("jsonfile");
 var config = require("./lib/data/config.json");
 var dataPath = "../../data/";
 
@@ -12,16 +13,20 @@ else {
             userConfig[i] = config[i];
         }
     }
-    fs.writeFileSync(dataPath + "config.json", JSON.stringify(userConfig));
+    jsonfile.writeFileSync(dataPath + "config.json", userConfig);
     config = userConfig;
 }
 
-var publicPath = "../../" + config["public_directory"];
-var routerPath = "../../" + config["router_directory"];
-var ajaxPath = "../../" + config["ajax_directory"];
-var schedulePath = "../../" + config["schedule_directory"];
+var basePath = "../../";
+var publicPath = basePath + config["public_directory"];
+var routerPath = basePath + config["router_directory"];
+var ajaxPath = basePath + config["ajax_directory"];
+var schedulePath = basePath + config["schedule_directory"];
+var start = basePath + "index.js";
 
 if (!fs.existsSync(publicPath)) fs.mkdirSync(publicPath);
 if (!fs.existsSync(routerPath)) fs.mkdirSync(routerPath);
 if (!fs.existsSync(ajaxPath)) fs.mkdirSync(ajaxPath);
 if (!fs.existsSync(schedulePath)) fs.mkdirSync(schedulePath);
+
+if (!fs.existsSync(start)) fs.createReadStream("./starter/index.js").pipe(fs.createWriteStream(start));
