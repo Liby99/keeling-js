@@ -13,7 +13,7 @@ else {
             userConfig[i] = config[i];
         }
     }
-    jsonfile.writeFileSync(dataPath + "config.json", userConfig);
+    jsonfile.writeFileSync(dataPath + "config.json", userConfig, {spaces: 4});
     config = userConfig;
 }
 
