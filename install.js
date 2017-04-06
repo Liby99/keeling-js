@@ -22,11 +22,22 @@ var publicPath = basePath + config["public_directory"];
 var routerPath = basePath + config["router_directory"];
 var ajaxPath = basePath + config["ajax_directory"];
 var schedulePath = basePath + config["schedule_directory"];
-var start = basePath + "index.js";
+var packageJsonPath = basePath + "package.json";
 
 if (!fs.existsSync(publicPath)) fs.mkdirSync(publicPath);
 if (!fs.existsSync(routerPath)) fs.mkdirSync(routerPath);
 if (!fs.existsSync(ajaxPath)) fs.mkdirSync(ajaxPath);
 if (!fs.existsSync(schedulePath)) fs.mkdirSync(schedulePath);
 
-if (!fs.existsSync(start)) fs.createReadStream("./starter/index.js").pipe(fs.createWriteStream(start));
+if (fs.existsSync(packageJsonPath)) {
+    var packageJson = require(packageJsonPath);
+    if (!packageJson.scripts.start) {
+        packageJson.scripts.start = "node node_modules/keeling-js/entry.js";
+        jsonfile.writeFileSync(packageJsonPath, packageJson, {spaces: 4});
+    }
+}
+else {
+    console.log("package.json not found, installing entry point index.js");
+    var entryJson = basePath + "index.js";
+    fs.createReadStream("./entry.js").pipe(fs.createWriteStream(entryJson));
+}
