@@ -4,5 +4,8 @@
     "port": 21023,
     "session_secret": "keeling-session",
     "default_page": "index",
-    "error_page": "error"
+    "error_page": "error",
+    "ajax_directory": "ajax",
+    "router_directory": "router",
+    "schedule_directory": "schedule"
 }
