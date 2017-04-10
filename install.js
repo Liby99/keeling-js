@@ -3,6 +3,10 @@ var jsonfile = require("jsonfile");
 var config = require("./lib/data/config.json");
 var dataPath = "../../data/";
 
+if (!fs.existsSync(dataPath)) {
+    fs.mkdirSync(dataPath);
+}
+
 if (!fs.existsSync(dataPath + "config.json")) {
     fs.createReadStream("./lib/data/config.json").pipe(fs.createWriteStream(dataPath + "config.json"));
 }
