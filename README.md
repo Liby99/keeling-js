@@ -32,5 +32,3 @@ Successfully started server Keeling Js Default in port 21023
 then the installation is successful and you can now access [http://localhost:21023/](http://localhost:21023/) in your browser! \(Though you might see 404 after that since your requested main page does not exist\).
 
 > For full documentation, please go to [Gitbook Keeling Js Documentation](https://liby991.gitbooks.io/keeling-js/)
-
-# License
