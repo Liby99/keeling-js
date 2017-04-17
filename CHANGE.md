@@ -1,6 +1,10 @@
 # Changes
 
-## Apr. 16 2017 [HEAD]
+## Apr. 17 2017 [HEAD]
+
+- Add Mysql Submodule
+
+## Apr. 16 2017
 
 - Modulized keeling.js, preparing to add mysql submodule.
 
