@@ -3,6 +3,7 @@
 ## Apr. 17 2017 [HEAD]
 
 - Add Mysql Submodule
+- Modified object shorthand
 
 ## Apr. 16 2017
 
