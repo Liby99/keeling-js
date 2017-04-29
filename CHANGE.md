@@ -1,6 +1,11 @@
 # Changes
 
-## Apr. 17 2017 [HEAD]
+## Apr. 28 2017 [HEAD]
+
+- Fixed debug parameter mis-settled bug
+- Fixed homepage redirect bug
+
+## Apr. 17 2017
 
 - Add Mysql Submodule
 - Modified object shorthand
