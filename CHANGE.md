@@ -1,6 +1,10 @@
 # Changes
 
-## Apr. 28 2017 [HEAD]
+## May. 07 2017 [HEAD]
+
+- Add port to process environment for Heroku support
+
+## Apr. 28 2017
 
 - Fixed debug parameter mis-settled bug
 - Fixed homepage redirect bug
