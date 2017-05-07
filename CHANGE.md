@@ -2,7 +2,7 @@
 
 ## May. 07 2017 [HEAD]
 
-- Add port to process environment for Heroku support
+- Add environment port check for Heroku support
 
 ## Apr. 28 2017
 
