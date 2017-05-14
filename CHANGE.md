@@ -1,6 +1,10 @@
 # Changes
 
-## May. 07 2017 [HEAD]
+## May. 13 2017 [HEAD]
+
+- Add USE api in server for middleware extension
+
+## May. 07 2017
 
 - Add environment port check for Heroku support
 
