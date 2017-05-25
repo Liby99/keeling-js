@@ -1,6 +1,6 @@
 {
     "name": "keeling-js",
-    "version": "1.2.5",
+    "version": "1.2.6",
     "description": "Keeling Js, a fast, light weight server based on Express Js",
     "main": "index.js",
     "scripts": {
@@ -27,6 +27,7 @@
         "express": "^4.15.2",
         "express-session": "^1.15.2",
         "jsonfile": "^2.4.0",
+        "mysql": "^2.13.0",
         "node-schedule": "^1.2.1",
         "stack-trace": "0.0.9"
     },

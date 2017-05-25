@@ -35,8 +35,16 @@ if (!fs.existsSync(schedulePath)) fs.mkdirSync(schedulePath);
 
 if (fs.existsSync(packageJsonPath)) {
     var packageJson = require(packageJsonPath);
-    if (!packageJson.scripts.start) {
+    var dirty = false;
+    if (!packageJson.scripts["start"]) {
         packageJson.scripts.start = "node node_modules/keeling-js/entry.js";
+        dirty = true;
+    }
+    if (!packageJson.scripts["create-entry"]) {
+        packageJson.scripts.start = "cp node_modules/keeling-js/entry.js ./app.js";
+        dirty = true;
+    }
+    if (dirty) {
         jsonfile.writeFileSync(packageJsonPath, packageJson, {spaces: 4});
     }
 }

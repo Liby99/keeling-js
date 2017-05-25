@@ -1,6 +1,11 @@
 # Changes
 
-## May. 13 2017 [HEAD]
+## May. 25 2017 [HEAD]
+
+- Add MySql Dependency
+- Add Create Entry Script to Installation
+
+## May. 13 2017
 
 - Add USE api in server for middleware extension
 
