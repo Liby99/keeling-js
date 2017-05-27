@@ -37,11 +37,11 @@ if (fs.existsSync(packageJsonPath)) {
     var packageJson = require(packageJsonPath);
     var dirty = false;
     if (!packageJson.scripts["start"]) {
-        packageJson.scripts.start = "node node_modules/keeling-js/entry.js";
+        packageJson.scripts["start"] = "node node_modules/keeling-js/entry.js";
         dirty = true;
     }
     if (!packageJson.scripts["create-entry"]) {
-        packageJson.scripts.start = "cp node_modules/keeling-js/entry.js ./app.js";
+        packageJson.scripts["create-entry"] = "cp node_modules/keeling-js/entry.js ./app.js";
         dirty = true;
     }
     if (dirty) {

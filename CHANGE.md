@@ -1,6 +1,10 @@
 # Changes
 
-## May. 25 2017 [HEAD]
+## May. 27 2017 [HEAD]
+
+- Fixed Important Bug when installing
+
+## May. 25 2017
 
 - Add MySql Dependency
 - Add Create Entry Script to Installation
