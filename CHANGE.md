@@ -2,7 +2,8 @@
 
 ## May. 27 2017 [HEAD]
 
-- Fixed Important Bug when installing
+- Fixed Important Bug when installing.
+- Fixed Scheduler Error Throw.
 
 ## May. 25 2017
 
