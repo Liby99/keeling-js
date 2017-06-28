@@ -27,6 +27,7 @@
         "express": "^4.15.2",
         "express-session": "^1.15.2",
         "jsonfile": "^2.4.0",
+        "mongodb": "^2.2.29",
         "mysql": "^2.13.0",
         "node-schedule": "^1.2.1",
         "stack-trace": "0.0.9"
