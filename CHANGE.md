@@ -3,6 +3,7 @@
 ## Jun. 29 2017 [HEAD]
 
 - Fixed Crypto Submodule Bug
+- Add Callback to Mongo Submodule
 
 ## Jun. 28 2017
 
