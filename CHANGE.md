@@ -1,6 +1,10 @@
 # Changes
 
-## Jun. 28 2017 [HEAD]
+## Jun. 29 2017 [HEAD]
+
+- Fixed Crypto Submodule Bug
+
+## Jun. 28 2017
 
 - Add MongoDB Support.
 
