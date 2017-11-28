@@ -4,6 +4,7 @@
 
 - Add Debug Error Function
 - Will continue the initiation after database initiated
+- Improved Start server 
 
 ## Jun. 29 2017
 
