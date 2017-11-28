@@ -3,6 +3,7 @@
 ## Nov. 28 2017 [HEAD]
 
 - Add Debug Error Function
+- Will continue the initiation after database initiated
 
 ## Jun. 29 2017
 
