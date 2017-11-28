@@ -1,6 +1,10 @@
 # Changes
 
-## Jun. 29 2017 [HEAD]
+## Nov. 28 2017 [HEAD]
+
+- Add Debug Error Function
+
+## Jun. 29 2017
 
 - Fixed Crypto Submodule Bug
 - Add Callback to Mongo Submodule
