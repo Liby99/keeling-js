@@ -1,6 +1,10 @@
 # Changes
 
-## Nov. 28 2017 [HEAD]
+## Dec. 7 2017 [HEAD]
+
+- Fixed Router Render Error Page Bug
+
+## Nov. 28 2017
 
 - Add Debug Error Function
 - Will continue the initiation after database initiated
