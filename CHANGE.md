@@ -2,6 +2,7 @@
 
 ## Dec. 7 2017 [HEAD]
 
+- Add Colors to Debug Output
 - Fixed Router Render Error Page Bug
 
 ## Nov. 28 2017
