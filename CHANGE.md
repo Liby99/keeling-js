@@ -1,5 +1,9 @@
 # Changes
 
+## Dec. 9 2017 [HEAD]
+
+- Allow using other templating engine specified in config.json
+
 ## Dec. 7 2017 [HEAD]
 
 - Add Colors to Debug Output
