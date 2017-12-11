@@ -1,10 +1,14 @@
 # Changes
 
-## Dec. 9 2017 [HEAD]
+## Dec. 10 2017 [HEAD]
+
+- Fixed scheduler read not only js file bug
+
+## Dec. 9 2017
 
 - Allow using other templating engine specified in config.json
 
-## Dec. 7 2017 [HEAD]
+## Dec. 7 2017
 
 - Add Colors to Debug Output
 - Fixed Router Render Error Page Bug
