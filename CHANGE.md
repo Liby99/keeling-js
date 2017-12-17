@@ -1,6 +1,10 @@
 # Changes
 
-## Dec. 10 2017 [HEAD]
+## Dec. 16 2017 [HEAD]
+
+- Add max-size property (10mb) as default to server.
+
+## Dec. 10 2017
 
 - Fixed scheduler read not only js file bug
 
