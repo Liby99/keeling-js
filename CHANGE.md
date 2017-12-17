@@ -3,6 +3,7 @@
 ## Dec. 16 2017 [HEAD]
 
 - Add max-size property (10mb) as default to server.
+- Remove include fs and path in image utility
 
 ## Dec. 10 2017
 
