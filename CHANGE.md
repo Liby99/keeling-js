@@ -1,6 +1,10 @@
 # Changes
 
-## Dec. 16 2017 [HEAD]
+## Dec. 19 2017 [HEAD]
+
+- Add Redirection Settings in config
+
+## Dec. 16 2017
 
 - Add max-size property (10mb) as default to server.
 - Remove include fs and path in image utility
