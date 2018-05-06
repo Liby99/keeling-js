@@ -1,6 +1,10 @@
 # Changes
 
-## Dec. 19 2017 [HEAD]
+## May. 6 2018 [HEAD]
+
+- Add bulit-in cross origin support
+
+## Dec. 19 2017
 
 - Add Redirection Settings in config
 
