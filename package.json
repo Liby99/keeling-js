@@ -1,0 +1,19 @@
+{
+  "name": "keeling-js-2",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liby99/keeling-js-2.git"
+  },
+  "author": "liby",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liby99/keeling-js-2/issues"
+  },
+  "homepage": "https://github.com/liby99/keeling-js-2#readme"
+}
