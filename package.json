@@ -16,7 +16,9 @@
     "url": "https://github.com/liby99/keeling-js/issues"
   },
   "homepage": "https://github.com/liby99/keeling-js#readme",
-  "dependencies": {},
+  "dependencies": {
+    "inquirer": "^6.2.1"
+  },
   "devDependencies": {
     "@types/node": "^10.12.11",
     "typescript": "^3.2.1"
