@@ -1,6 +1,6 @@
 {
-  "name": "keeling-js-2",
-  "version": "0.0.0",
+  "name": "keeling-js",
+  "version": "2.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -8,16 +8,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/liby99/keeling-js-2.git"
+    "url": "git+https://github.com/liby99/keeling-js.git"
   },
   "author": "liby",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/liby99/keeling-js-2/issues"
+    "url": "https://github.com/liby99/keeling-js/issues"
   },
-  "homepage": "https://github.com/liby99/keeling-js-2#readme",
+  "homepage": "https://github.com/liby99/keeling-js#readme",
   "dependencies": {},
   "devDependencies": {
+    "@types/node": "^10.12.11",
     "typescript": "^3.2.1"
   }
 }
